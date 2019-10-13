@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "gruvbox"
+    colorscheme = "molokai"
     colorscheme_bg = "dark"
     #background = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
@@ -26,7 +26,7 @@
     enable_statusline_display_mode = false
     bootstrap_before = "myspacevim#init"
     lint_on_save = 0
-
+    auto_disable_touchpad = 0
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
@@ -35,7 +35,7 @@ auto-completion-tab-key-behavior = "smart"
 
 [[layers]]
 name = 'shell'
-default_position = 'top'
+default_position = 'bottom'
 default_height = 30
 
 #theme
@@ -46,4 +46,11 @@ name = "colorscheme"
 name = "leaderf"
 
 [[layers]]
-name = "tags"
+name = "chinese"
+
+[[layers]]
+name = "gtags"
+gtagslabel = "ctags"
+
+#[[layers]]
+#  name = "cscope"

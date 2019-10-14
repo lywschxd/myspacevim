@@ -50,7 +50,11 @@ name = "chinese"
 
 [[layers]]
 name = "gtags"
-gtagslabel = "ctags"
+enable = false
+
+[[custom_plugins]]
+name = "aceofall/gtags.vim"
+merged = false
 
 #[[layers]]
 #  name = "cscope"
